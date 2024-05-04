@@ -1,0 +1,47 @@
+#game-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 20px;
+}
+
+#left-panel, #right-panel {
+    flex: 1;
+    text-align: center;
+}
+
+#buy-factory, #buy-mine, #buy-rocket {
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#score, #factory-count, #mine-count, #rocket-count{
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+#lps {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#current-line {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#previous-line, next-line {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#typing-input {
+    width: 90%;
+    height: 100px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 10px;
+}
